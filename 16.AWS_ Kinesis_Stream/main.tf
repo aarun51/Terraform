@@ -1,5 +1,5 @@
-resource "aws_kinesis_stream" "xfusion-stream" {
-  name             = "xfusion-stream"
+resource "aws_kinesis_stream" "datacenter-stream" {
+  name             = "datacenter-stream"
   shard_count      = 1
   retention_period = 48
 
@@ -12,7 +12,4 @@ resource "aws_kinesis_stream" "xfusion-stream" {
     stream_mode = "PROVISIONED"
   }
 
-  tags = {
-    Environment = "test"
-  }
 }
