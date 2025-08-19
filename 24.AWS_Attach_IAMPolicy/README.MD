@@ -1,0 +1,3 @@
+An IAM user named iamuser_javed and a policy named iampolicy_javed already exists. Use Terraform to attach the IAM policy iampolicy_javed to the IAM user iamuser_javed. The Terraform working directory is /home/bob/terraform. Update the main.tf file (do not create a separate .tf file) to attach the specified IAM policy to the IAM user.
+
+Note: Right-click under the EXPLORER section in VS Code and select Open in Integrated Terminal to launch the terminal.
